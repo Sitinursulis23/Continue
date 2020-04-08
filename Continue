@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int a = 0;
+int angka = 0;
+int main()
+{
+	cout<<"Masukan Angka 1-100 = ";
+	cin>>angka;{
+		for (a = 0; a<=angka; a++){
+			if(a==75){
+			continue;
+			}
+		cout<<a<<endl;
+		}
+	}	
+	cout<<endl<<"75 nya gak ada"<<endl;
+	return 0;
+}
